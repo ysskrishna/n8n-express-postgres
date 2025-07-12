@@ -40,6 +40,21 @@ services:
     depends_on:
       db:
         condition: service_healthy
+  express:
+    build:
+      context: ./express
+      dockerfile: Dockerfile
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=${POSTGRES_USER}
+      - DB_PASSWORD=${POSTGRES_PASSWORD}
+      - DB_NAME=${POSTGRES_DATABASE_EXPRESS}
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
 
 volumes:
   db_data:
