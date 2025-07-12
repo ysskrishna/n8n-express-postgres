@@ -1,5 +1,12 @@
 # n8n + Express + PostgreSQL: Workflow Automation Starter Kit
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
+[![n8n](https://img.shields.io/badge/n8n-FF6A00?style=flat&logo=n8n&logoColor=white)](https://n8n.io)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
+
 ## 🔧 Project Overview
 
 This repository offers a pre-configured Docker Compose setup integrating:
@@ -33,6 +40,29 @@ The stack includes:
 
     * `n8ndb`: Used exclusively by n8n.
     * `expressdb`: Used by the Express server.
+
+## 📁 Project Structure
+
+```
+n8n-express/
+├── docker/
+│   └── postgres/
+│       └── init.sql
+├── docker-compose.yml
+├── express/
+│   ├── db.js
+│   ├── Dockerfile
+│   ├── index.js
+│   ├── models/
+│   │   └── itemModel.js
+│   ├── package.json
+│   ├── README.md
+│   └── routes/
+│       └── items.js
+├── LICENSE
+├── notes.md
+├── README.md
+```
 
 ## 🚀 Getting Started
 
@@ -93,3 +123,14 @@ n8n allows you to drag and drop pre-built nodes to:
 * 🧠 **Low-code automation**: Non-developers can build and manage workflows using n8n’s UI.
 * 🚀 **Extendable stack**: Easily build and scale the Express API or add new integrations to n8n.
 * 📦 **Modular design**: Separate databases for n8n and your app prevent data conflicts.
+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Author:** [Siva Sai Krishna](https://github.com/ysskrishna)
