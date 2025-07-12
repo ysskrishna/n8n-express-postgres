@@ -1,4 +1,14 @@
-services: 
+services:
+  db:
+    image: postgres:15
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: dbuser
+      POSTGRES_PASSWORD: dbpass321 
+    ports:
+      - "5432:5432"
   n8n:
     image: n8nio/n8n
     restart: always
@@ -14,4 +24,5 @@ services:
       - n8n_data:/home/node/.n8n
 
 volumes:
+  db_data:
   n8n_data:
