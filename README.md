@@ -124,6 +124,31 @@ n8n allows you to drag and drop pre-built nodes to:
 * 🚀 **Extendable stack**: Easily build and scale the Express API or add new integrations to n8n.
 * 📦 **Modular design**: Separate databases for n8n and your app prevent data conflicts.
 
+## 🔗 Useful Resources
+
+### 📘 n8n
+
+- 🌐 [Official Website](https://n8n.io)
+- 📖 [Documentation](https://docs.n8n.io)
+- 🧩 [Integrations List](https://n8n.io/integrations)
+- 🧠 [Workflow Gallery (Official)](https://n8n.io/workflows)
+- 💬 [Community Forum](https://community.n8n.io)
+- 🐙 [GitHub Repository](https://github.com/n8n-io/n8n)
+- 🔧 [Self-Hosting Guide](https://docs.n8n.io/hosting/overview/)
+- 🔐 [Security Best Practices](https://docs.n8n.io/security/)
+
+#### 📦 Unofficial Workflow Libraries
+
+- ⭐ [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) – Collection of real-world n8n workflows
+- 🌟 [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) – Curated list of n8n templates and resources
+
+
+### 🌐 Other Documentation
+
+- [Express Documentation](https://expressjs.com)
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- [Docker Documentation](https://docs.docker.com)
+
 
 ## Contributing
 
