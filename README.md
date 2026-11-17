@@ -6,6 +6,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
 [![n8n](https://img.shields.io/badge/n8n-FF6A00?style=flat&logo=n8n&logoColor=white)](https://n8n.io)
 [![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com)
+[![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
 
 ## 🔧 Project Overview
 
@@ -134,8 +135,8 @@ n8n allows you to drag and drop pre-built nodes to:
 - 🧠 [Workflow Gallery (Official)](https://n8n.io/workflows)
 - 💬 [Community Forum](https://community.n8n.io)
 - 🐙 [GitHub Repository](https://github.com/n8n-io/n8n)
-- 🔧 [Self-Hosting Guide](https://docs.n8n.io/hosting/overview/)
-- 🔐 [Security Best Practices](https://docs.n8n.io/security/)
+- 🔧 [Self-Hosting Guide](https://docs.n8n.io/deploy/host-n8n)
+- 🔐 [Security Best Practices](https://docs.n8n.io/deploy/host-n8n/configure-n8n/security)
 
 #### 📦 Unofficial Workflow Libraries
 
@@ -154,8 +155,32 @@ n8n allows you to drag and drop pre-built nodes to:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## Built and maintained by
+
+n8n + Express + PostgreSQL: Workflow Automation Starter Kit is built and maintained by:
+
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/ysskrishna.png?size=120" width="60" height="60" alt="Y. Siva Sai Krishna"> | **Y. Siva Sai Krishna** | [@ysskrishna](https://github.com/ysskrishna) | Creator |
+
+## Support
+
+If you find this project helpful:
+
+- ⭐ Star the repository
+- 🐛 [Report issues](https://github.com/ysskrishna/n8n-express-postgres/issues)
+- 🔀 Submit pull requests
+- 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) — see [LICENSE](LICENSE) for details.
 
-**Author:** [Siva Sai Krishna](https://github.com/ysskrishna)
+---
+
+<p align="left">
+  <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+  <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+  <a href="https://ysskrishna.space">Author's site</a> •
+  <a href="https://github.com/ysskrishna/n8n-express-postgres/issues">Report Issues</a>
+</p>
